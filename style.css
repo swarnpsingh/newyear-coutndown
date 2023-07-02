@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(daniel-leone-g30P1zcOzXo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 562px) {
+    body {
+      background: #5F8B96;
+    }
+    .countdown-container{
+        flex-direction: column;
+    }
+}
+
+h1{
+    margin-top: 60px;
+}
+
+.countdown-container{
+    display: flex;
+    gap: 60px;
+    position: relative;
+    top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+}
